@@ -18,6 +18,10 @@
             {
                 Console.Writeline("end year must be before start year")
             }
+            else
+            {
+                ValidChoice = true;
+            }
                 
                 
             
