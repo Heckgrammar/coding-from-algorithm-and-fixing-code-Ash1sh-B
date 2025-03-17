@@ -10,7 +10,15 @@
             int Start = Convert.ToInt32(Console.Readline());
             Console.Writeline("enter the end year");
             int End = Convert.Toint32(console.readline());
-            if (start
+            if (start>= End)
+            {
+                Console.Writeline("start year must be before end year")
+            }
+            else if (start<=End)
+            {
+                Console.Writeline("end year must be before start year")
+            }
+                
                 
             
             // The algorithm in the Readme contains an error
